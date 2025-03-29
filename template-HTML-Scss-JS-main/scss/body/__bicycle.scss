@@ -1,0 +1,33 @@
+@use "../common/variables" as *;
+@use "../common/functions" as *;
+
+.bicycle {
+    .bicycle-title {
+        font-size: vw(32);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: vw(60);
+
+        h1 {
+            display: inline-block;
+            border-bottom: 1px solid black;
+        }
+    }
+    .bicycle-block {
+        display: flex;
+        justify-content: center;
+        margin: 0 vw(230);
+        gap: vw(16.2);
+    }
+    .bicycle-item-detail {
+        margin-top: vw(10);
+        text-align: center;
+    }
+    .bicycle-item-title h1 {
+        font-size: vw(16);
+        font-weight: bold;
+    }
+    .bicycle-item-text {
+        font-size: vw(14.4);
+    }
+}
