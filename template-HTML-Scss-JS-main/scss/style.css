@@ -466,6 +466,7 @@ header .header-menu li {
 .about .about-block {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2.34375vw;
   margin: 0 29.140625vw;
 }
