@@ -19,7 +19,7 @@
         justify-content: center;
         margin: 0 vw(230);
         gap: vw(16.2);
-        @include sp(){
+        @include sp{
             display: block;
             margin: 0;
         }
@@ -28,7 +28,7 @@
         margin-bottom: vw(10);
 
         img {
-            @include sp(){
+            @include sp{
                 width: vw_sp(345);
                 height: vw_sp(228);
             }

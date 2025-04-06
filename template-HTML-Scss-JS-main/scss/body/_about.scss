@@ -21,7 +21,7 @@
         align-items: center;
         gap: vw(30);
         margin: 0 vw(373);
-        @include sp(){
+        @include sp{
             flex-direction: column;
         }
         .about_img-block {
