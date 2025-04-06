@@ -1,37 +1,44 @@
 @use "../common/variables" as *;
 @use "../common/functions" as *;
+@use "../common/mixins" as *;
 
 .about {
     margin-bottom: vw(60);
-    .about-title {
+    .about_title {
         font-size: vw(32);
         font-weight: bold;
         text-align: center;
         margin-bottom: vw(70);
 
-        h1 {
+        .about_title-text {
             display: inline-block;
             border-bottom: 1px solid black;
         }
     }
-    .about-block {
+    .about_block {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: vw(30);
         margin: 0 vw(373);
-        
-        .about-img {
-            height: vh(100);
-            width: vw(100);
+        @include sp(){
+            flex-direction: column;
         }
-        .about-detail {
+        .about_img-block {
+            text-align: center;
+            .about_img {
+                height: vw(100);
+                width: vw(100);
+            }
+        }
 
-            .about-detail-name h1 {
+        .about_detail-block {
+            width: vw(403);
+            .about_detail-name h2 {
                 font-size: vw(16);
                 font-weight: bold;
             }
-            .about-detail-text {
+            .about_detail-text {
                 font-size: vw(14.4);
             }
         }

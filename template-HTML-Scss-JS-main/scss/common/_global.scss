@@ -17,6 +17,11 @@ body {
 		font-size: vw_sp(13);
 	}
 }
+main {
+	@include sp(){
+		margin: 0 vw_sp(10);
+	}
+}
 
 // img {
 // 	width: 100%;

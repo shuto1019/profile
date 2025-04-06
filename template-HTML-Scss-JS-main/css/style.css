@@ -399,20 +399,14 @@ html {
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.1111111111vw;
+  font-family: "Meiryo;";
+  font-size: 1.40625vw;
   line-height: 1.8;
-  letter-spacing: 0;
 }
 @media screen and (max-width: 768px) {
   body {
     font-size: 3.6111111111vw;
   }
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 svg {
@@ -423,6 +417,102 @@ svg {
   height: auto;
 }
 
-.header {
-  color: yellow;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.78125vw;
+}
+header .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #393E46 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 9.375vw;
+  height: 4.9382716049vh;
+  padding: 0.815625vw 1.675vw;
+  font-weight: bold;
+}
+header .header-menu {
+  display: flex;
+  gap: 2.34375vw;
+}
+header .header-menu li {
+  line-height: 1.640625vw;
+  font-size: 1.125vw;
+}
+
+.main-visual img {
+  width: 100vw;
+  height: 74.0740740741vh;
+  margin-bottom: 6.25vw;
+}
+
+.about {
+  margin-bottom: 4.6875vw;
+}
+.about .about-title {
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5.46875vw;
+}
+.about .about-title h1 {
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+.about .about-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.34375vw;
+  margin: 0 29.140625vw;
+}
+.about .about-block .about-img {
+  height: 12.3456790123vh;
+  width: 7.8125vw;
+}
+.about .about-block .about-detail .about-detail-name h1 {
+  font-size: 1.25vw;
+  font-weight: bold;
+}
+.about .about-block .about-detail .about-detail-text {
+  font-size: 1.125vw;
+}
+
+.bicycle .bicycle-title {
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4.6875vw;
+}
+.bicycle .bicycle-title h1 {
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+.bicycle .bicycle-block {
+  display: flex;
+  justify-content: center;
+  margin: 0 17.96875vw;
+  gap: 1.265625vw;
+}
+.bicycle .bicycle-item-detail {
+  margin-top: 0.78125vw;
+  text-align: center;
+}
+.bicycle .bicycle-item-title h1 {
+  font-size: 1.25vw;
+  font-weight: bold;
+}
+.bicycle .bicycle-item-text {
+  font-size: 1.125vw;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.78125vw;
+  margin-top: 8.59375vw;
+  margin-bottom: 0.78125vw;
 }/*# sourceMappingURL=style.css.map */

@@ -6,10 +6,10 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: vw(10);
+  padding: vw(10);
   
   
-  .header-logo {
+  .header_title {
     display: flex;                    // フレックスボックスを使用
     justify-content: center;          // 水平方向の中央配置
     align-items: center;              // 垂直方向の中央配置
@@ -17,16 +17,17 @@ header {
     background: #393E46 0% 0% no-repeat padding-box;
     opacity: 1;
     width: vw(120);
-    height: vh(40);
-    padding: vw(10.44) vw(21.44);
+    height: vw(40);
     font-weight: bold;
+    font-size: vw(14);
+    padding: vw(10.67) vw(21.44);
   }
   
-  .header-menu {
+  .header_menu {
     display: flex;
     gap: vw(30);
 
-    li {
+    .heade_menu-list {
       line-height: vw(21);
       font-size: vw(14.4);
     }
