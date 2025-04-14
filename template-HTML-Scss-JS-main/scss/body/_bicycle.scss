@@ -28,6 +28,7 @@
         margin-bottom: vw(10);
 
         img {
+            object-fit: cover;
             @include sp{
                 width: vw_sp(345);
                 height: vw_sp(228);
