@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title></title>
+		<title>Profile</title>
 
 		<meta name="description" content="" />
 		<!-- ページの説明文 -->
@@ -30,28 +30,92 @@
 		<link rel="shortcut icon" href="favicon.ico" />
 
 		<!-- css -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="./scss/style.css" />
 	</head>
 	<body>
 		<header>
-			<ul class="list">
-				<li class="list__item">
-					<a href="#" class="list__item-link active">リンクA</a>
-				</li>
-				<li class="list__item">
-					<a href="#" class="list__item-link">リンクB</a>
-				</li>
-				<li class="list__item active">
-					<a href="#" class="list__item-link">リンクC</a>
-				</li>
-				<li class="list__item">
-					<a href="#" class="list__item-link">リンクD</a>
-				</li>
-				<li class="list__item">
-					<a href="#" class="list__item-link">リンクE</a>
-				</li>
+			<h1 class="header_title">Profile</h1>
+			<ul class="header_menu">
+				<li class="heade_menu-list"><a href="" class="link">About</a></li>
+				<li class="heade_menu-list"><a href="" class="link">Bicycle</a></li>
 			</ul>
 		</header>
+		<main>
+			<article>
+				<section class="main-visual">
+					<img src="./img/mainvisual.png" alt="">
+				</section>
+				<section class="about">
+					<div class="about_title">
+						<h2 class="about_title-text">About</h2>
+					</div>
+					<div class="about_block">
+						<div class="about_img-block">
+							<img src="./img/about.png" class="about_img" alt="">
+						</div>
+						<div class="about_detail-block">
+							<div class="about_detail-name">
+								<h2>KAKERU MIYAICHI</h2>
+							</div>
+							<div class="about_detail-text">
+								<p>テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="bicycle">
+					<div class="bicycle_title">
+						<h2 class="bicycle_title-text">Bicycle</h2>
+					</div>
+					<div class="bicycle_block">
+						<div class="bicycle_item">
+							<div class="bicycle_item-img">
+								<img src="./img/bicycle1.png" alt="">
+							</div>
+							<div class="bicycle_item-detail">
+								<div class="bicycle_item-title">
+									<h2 class="bicycle_item-title-text">タイトルタイトル</h2>
+								</div>
+								<div class="bicycle_item-text">
+									<p>テキストテキスト</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="bicycle_item">
+							<div class="bicycle_item-img">
+								<img src="./img/bicycle2.png" alt="">
+							</div>
+							<div class="bicycle_item-detail">
+								<div class="bicycle_item-title">
+									<h2 class="bicycle_item-title-text">タイトルタイトル</h2>
+								</div>
+								<div class="bicycle_item-text">
+									<p>テキストテキスト</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="bicycle_item">
+							<div class="bicycle_item-img">
+								<img src="./img/bicycle3.png" alt="">
+							</div>
+							<div class="bicycle_item-detail">
+								<div class="bicycle_item-title">
+									<h2 class="bicycle_item-title-text">タイトルタイトル</h2>
+								</div>
+								<div class="bicycle_item-text">
+									<p>テキストテキスト</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+		<footer>
+			<p>&#169; 2020 Profile</p>
+		</footer>
 		<script src="./js/main.js"></script>
 		<!-- jsファイル -->
 	</body>

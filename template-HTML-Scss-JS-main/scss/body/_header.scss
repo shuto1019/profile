@@ -1,5 +1,35 @@
 @charset "utf-8";
+@use "../common/variables" as *;
+@use "../common/functions" as *;
 
-.header {
-  color: yellow;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: vw(10);
+  
+  
+  .header_title {
+    display: flex;                    // フレックスボックスを使用
+    justify-content: center;          // 水平方向の中央配置
+    align-items: center;              // 垂直方向の中央配置
+    color: $color-base-white;
+    background: #393E46 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: vw(120);
+    height: vw(40);
+    font-weight: bold;
+    font-size: vw(14);
+    padding: vw(10.67) vw(21.44);
+  }
+  
+  .header_menu {
+    display: flex;
+    gap: vw(30);
+
+    .heade_menu-list {
+      line-height: vw(21);
+      font-size: vw(14.4);
+    }
+  }
 }

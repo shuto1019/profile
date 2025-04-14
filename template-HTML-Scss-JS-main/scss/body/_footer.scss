@@ -1,0 +1,9 @@
+@use "../common/variables" as *;
+@use "../common/functions" as *;
+
+footer {
+    text-align: center;
+    font-size: vw(10);
+    padding-top: vw(110);
+    padding-bottom: vw(10);
+}

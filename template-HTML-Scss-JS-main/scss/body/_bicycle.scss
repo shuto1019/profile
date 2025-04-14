@@ -1,0 +1,48 @@
+@use "../common/variables" as *;
+@use "../common/functions" as *;
+@use "../common/mixins" as *;
+
+.bicycle {
+    .bicycle_title {
+        font-size: vw(32);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: vw(60);
+
+        .bicycle_title-text {
+            display: inline-block;
+            border-bottom: 1px solid black;
+        }
+    }
+    .bicycle_block {
+        display: flex;
+        justify-content: center;
+        margin: 0 vw(230);
+        gap: vw(16.2);
+        @include sp{
+            display: block;
+            margin: 0;
+        }
+    }
+    .bicycle_item-img {
+        margin-bottom: vw(10);
+
+        img {
+            object-fit: cover;
+            @include sp{
+                width: vw_sp(345);
+                height: vw_sp(228);
+            }
+        }
+    }
+    .bicycle_item-detail {
+        text-align: center;
+    }
+    .bicycle_item-title-text {
+        font-size: vw(16);
+        font-weight: bold;
+    }
+    .bicycle_item-text {
+        font-size: vw(14.4);
+    }
+}

@@ -8,20 +8,25 @@ html {
 }
 
 body {
-	font-family: $noto-sans;
-	font-size: vw(16);
+	font-family: $meiryo;
+	font-size: vw(18);
 	line-height: 1.8;
-	letter-spacing: 0;
+	
 
 	@include sp() {
 		font-size: vw_sp(13);
 	}
 }
-
-img {
-	width: 100%;
-	height: auto;
+main {
+	@include sp(){
+		margin: 0 vw_sp(10);
+	}
 }
+
+// img {
+// 	width: 100%;
+// 	height: auto;
+// }
 
 svg {
 	display: flex;

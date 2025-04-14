@@ -10,7 +10,7 @@ $breakpoints: (
 
 // design size
 $design-size: (
-	"pc-width": 1440,
+	"pc-width": 1280,
 	"pc-height": 810,
 	"sp-width": 360,
 	"sp-height": 800,
@@ -18,6 +18,7 @@ $design-size: (
 
 // colors
 $color-base-white: #ffffff;
+$color-bg-black: #393E46;
 $color-base-lower-white: #c0c0c0;
 $color-base-lower-black: #292929;
 $color-base-black: #000000;
@@ -36,6 +37,7 @@ $shadow-works-environment: 0 0 50px rgb(28 105 129 / 10%);
 $hiragino-ud-sans-w4: "Hiragino UD Sans W4 JIS2004", "sans-serif";
 $hiragino-ud-sans-w5: "Hiragino UD Sans W5 JIS2004", "sans-serif";
 $noto-sans: "Noto Sans JP", sans-serif;
+$meiryo: "Meiryo;";
 $font-family-termina: "termina", sans-serif;
 
 // animations
